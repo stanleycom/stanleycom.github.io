@@ -1,0 +1,26 @@
+/***** Always True *****/
+@media only screen {
+}
+
+/***** > 1000px *****/
+@media only screen and (min-width: 750px) {
+    .respond-min {
+        display: none !important;
+    }
+    .respond-contact {
+        width: 540px
+    }
+    .respond-product {
+        width: 250px
+    }
+}
+
+/***** <= 1000px *****/
+@media only screen and (max-width: 750px) {
+    .respond-max {
+        display: none;
+    }
+    .respond-product {
+        width: 400px
+    }
+}
