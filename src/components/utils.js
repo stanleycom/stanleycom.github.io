@@ -38,7 +38,7 @@ export const GC = {
                 padding: "30px",
             }
         },
-        EMAIL: "akatary23@gmail.com"
+        EMAIL: "stanleycom@myyahoo.com"
     },
 
     DATE_FORMAT: "mm/dd/yyyy",
