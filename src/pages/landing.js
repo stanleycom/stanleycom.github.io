@@ -63,6 +63,12 @@ function Landing() {
                                 Mon - Fri, 10am to 7pm
                             </Typography>
                         </Row>
+                        <Row className="flex align-center width-fit">
+                            <Typography style={{fontSize: GC.FONT.TEXT, color: GC.BLACK, margin: "0 0 20px 0"}} className={`${GC.FONT.FAMILY.DEFAULT}`}>
+                                {/* <LocalPhoneIcon style={{color: GC.BLACK, margin: "0 10px 0 0"}} />  */}
+                                3341 75th Ave, Hyattsville, MD 20785
+                            </Typography>
+                        </Row>
                     </div>
                 </Row>
             </Container>

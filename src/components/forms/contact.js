@@ -22,7 +22,12 @@ const contact = (event, setNotification) => {
     if (email === "") setNotification({value: "Email required to send message", notify: true});
     else if (subject === "") setNotification({value: "Subject required to send message", notify: true});
     else if (message === "") setNotification({value: "Message required to send message", notify: true});
-    else sendMessage(email, subject, message, setNotification);
+    else {
+        sendMessage(email, subject, message, setNotification);
+        document.getElementById(ID.EMAIL).value = "";
+        document.getElementById(ID.SUBJECT).value = "";
+        document.getElementsByName(NAME.MESSAGE)[0].value = "";
+    }
     return;
 }
 
